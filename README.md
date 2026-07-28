@@ -82,10 +82,24 @@ supabase/functions/categoriser/  Edge Function (API Claude)
 supabase.sql           schéma + politiques RLS
 ```
 
-## Répartition du travail (à adapter par le groupe)
+## Tester rapidement
 
-Chaque membre doit pouvoir expliquer sa partie à la soutenance :
+Un compte de démonstration est déjà alimenté :
 
-- **Membre 1** — base de données, RLS, authentification (`supabase.sql`, `AuthScreen`, `lib/supabase.js`)
-- **Membre 2** — liste, total, objectif, navigation (`DepensesScreen`, `App.js`, `ProfilScreen`)
-- **Membre 3** — ajout / détail / CRUD, brique IA, déploiement EAS (`AjoutScreen`, `DetailScreen`, `lib/ia.js`, Edge Function)
+```
+demo@react-ipssi.fr / react_ipssi123
+```
+
+Il contient une dépense et un objectif mensuel de 600 €. Créer un second compte
+permet de vérifier l'isolation des données : la liste est alors vide, les
+dépenses du premier compte restant invisibles (Row Level Security).
+
+## Répartition du travail
+
+Binôme. Chaque membre présente sa partie à la soutenance :
+
+- **Membre 1** — base de données, Row Level Security, authentification
+  (`supabase.sql`, `screens/AuthScreen.js`, `lib/supabase.js`)
+- **Membre 2** — navigation et interface, CRUD, brique IA, déploiement EAS
+  (`App.js`, `screens/DepensesScreen.js`, `screens/AjoutScreen.js`,
+  `screens/DetailScreen.js`, `lib/ia.js`, Edge Function)
