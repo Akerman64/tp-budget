@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Budget",
-    "slug": "TP-budget",
+    "slug": "tp-budget",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,6 +20,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "add53c8d-68a4-48a0-a9cd-77aa94522d42"
+      }
     }
   }
 }
