@@ -82,6 +82,18 @@ supabase/functions/categoriser/  Edge Function (API Claude)
 supabase.sql           schéma + politiques RLS
 ```
 
+## Installer l'application (Android)
+
+APK compilé avec EAS Build, installable directement :
+
+**https://expo.dev/artifacts/eas/NpHv0Q2DDg5yqjtehfpZUU80FOPlA8SEFfrKlZk7lqE.apk**
+
+Page du build (avec QR code d'installation) :
+https://expo.dev/accounts/ndiasse/projects/tp-budget/builds/aa4ea79b-450d-4ca2-be20-44b5e2716a45
+
+Ouvrir le lien depuis un téléphone Android et autoriser l'installation depuis
+une source inconnue. L'application ne dépend pas d'Expo Go.
+
 ## Tester rapidement
 
 Un compte de démonstration est déjà alimenté :
